@@ -1,0 +1,8 @@
+{
+  "name": "doctor-appointment-platform",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "dev": "start cmd.exe /k \"cd server && npm run dev\" && start cmd.exe /k \"cd client && npm run dev\""
+  }
+}
